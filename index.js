@@ -4,7 +4,7 @@ let container1 = document.querySelector(".overall-container");
 
 let dates = document.querySelector(".dates");
 
-let theDate = new Date(2025, 1, 5, 12, 0, 0);
+let theDate = new Date(2025, 7, 12, 12, 0, 0);
  
  dates.innerHTML = `This Giveaway is ongoing and ends on ${theDate.toUTCString()}`;
   
